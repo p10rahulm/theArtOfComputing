@@ -1,4 +1,4 @@
-:: Type the command "cmd < synchronizeCloud.sh"
+:: Type the command "cmd < syncCloud.sh"
 :: Preliminary Checks:
 :: 1. Ensure "gcloud auth login" is already done
 :: 2. Ensure that you are on the IISc CISCO VPN
