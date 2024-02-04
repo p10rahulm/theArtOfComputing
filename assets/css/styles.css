@@ -821,6 +821,7 @@ a:hover {
 
 #faqs .faq-question {
     margin: 20px 10px 5px 10px;
+    padding-top: 20px;
     color: #863507;
     font-family: "Lora", Georgia, Cambria, Times, "Times New Roman", Serif;
 }
