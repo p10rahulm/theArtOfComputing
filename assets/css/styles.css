@@ -67,7 +67,7 @@ a:hover {
 }
 
 .header #headerLogoImage {
-    height: min(150px,25vw,10em);
+    height: min(150px, 25vw, 10em);
 }
 
 .header #HeaderTitle {
@@ -121,11 +121,11 @@ a:hover {
 }
 
 
-
 @media screen and (max-width: 720px) {
-    .header #HeaderLogo{
+    .header #HeaderLogo {
         opacity: 56%;
     }
+
     .header #HeaderTitle {
         text-align: center;
     }
@@ -135,15 +135,15 @@ a:hover {
         flex-grow: 1;
         flex-wrap: wrap;
     }
-    #Organizers .organizer-card{
+
+    #Organizers .organizer-card {
         text-align: center;
     }
-    #Talks .author-card{
+
+    #Talks .author-card {
         text-align: center;
     }
 }
-
-
 
 
 .mainer {
@@ -237,7 +237,7 @@ a:hover {
     justify-content: space-around;
 }
 
-.mainer #sponsor-thanks{
+.mainer #sponsor-thanks {
     margin-top: 3px;
     padding-bottom: 24px;
     font-size: 15px;
@@ -299,7 +299,7 @@ a:hover {
     border: 2px solid #4285f4;
 }
 
-.mainer .section-heading{
+.mainer .section-heading {
     font-family: "Lora", Georgia, Cambria, Times, "Times New Roman", Serif;
     font-size: max(16px, 1.75em);
     text-align: center;
@@ -324,7 +324,7 @@ a:hover {
     margin-top: 15px;
 }
 
-.mainer #Organizers .organizer-card{
+.mainer #Organizers .organizer-card {
     flex-basis: 360px;
     flex-grow: 1;
     flex-shrink: 0;
@@ -378,7 +378,7 @@ a:hover {
 .mainer #Organizers .organizer-card .author-link-href {
     /*text-decoration-color: #f77e7e;*/
     text-decoration-color: #873307;
-    font-size: max(14px,1.25em);
+    font-size: max(14px, 1.25em);
 }
 
 .mainer #Organizers .organizer-card .seminar-speaker-affiliation {
@@ -386,7 +386,7 @@ a:hover {
     color: #525252;
     padding: 0 0 0.5em 0;
     margin: 10px auto;
-    font-size: max(12px,1em);
+    font-size: max(12px, 1em);
     /*font-family: "Lora", Georgia, Cambria, Times, "Times New Roman", Serif;*/
     /*text-align: center;*/
     /*border-bottom: 1px solid rgba(0, 26, 250, 0.12);*/
@@ -395,8 +395,6 @@ a:hover {
 .mainer #Organizers .organizer-card .affiliation-link-href {
     text-decoration-color: #525252;
 }
-
-
 
 
 .mainer #Talks .home-header {
@@ -456,10 +454,6 @@ a:hover {
 }
 
 
-
-
-
-
 .mainer #Talks .author-card .seminar-speaker {
     font-weight: bold;
     /*color: #f77e7e;*/
@@ -474,7 +468,7 @@ a:hover {
 .mainer #Talks .author-card .author-link-href {
     /*text-decoration-color: #f77e7e;*/
     text-decoration-color: #873307;
-    font-size: max(14px,1.25em);
+    font-size: max(14px, 1.25em);
 }
 
 .mainer #Talks .author-card .seminar-speaker-affiliation {
@@ -491,7 +485,6 @@ a:hover {
 .mainer #Talks .author-card .affiliation-link-href {
     text-decoration-color: #525252;
 }
-
 
 
 .mainer #Talks .author-card .seminar-time {
@@ -585,7 +578,8 @@ a:hover {
     padding: 10px 0;
     margin-top: 25px;
 }
-.footer{
+
+.footer {
     /*position: fixed;*/
     min-height: 25px;
     bottom: 0;
@@ -689,7 +683,7 @@ a:hover {
     font-family: "Open Sans", Georgia, Cambria, "Times New Roman", Times, serif;
 }
 
-#SpeakerPageHolder .author-card{
+#SpeakerPageHolder .author-card {
     flex-basis: 360px;
     flex-grow: 1;
     flex-shrink: 0;
@@ -776,7 +770,8 @@ a:hover {
     border-top: 1px solid #eceefb;
     width: 100%;
 }
-#SpeakerPageHolder .speaker-bio-title{
+
+#SpeakerPageHolder .speaker-bio-title {
     text-align: center;
     margin: 15px auto 0;
     padding: 10px 0;
@@ -789,15 +784,16 @@ a:hover {
 }
 
 
-#schedule .schedule-speaker-link{
+#schedule .schedule-speaker-link {
     color: #575757;
 }
-#schedule .schedule-speaker-link:hover{
+
+#schedule .schedule-speaker-link:hover {
     color: #575757;
     text-decoration: underline;
 }
 
-.schedule-heading{
+.schedule-heading {
     /*color: #863507;*/
     color: #0ab500;
     /*color: #0c6d3d;*/
@@ -806,17 +802,34 @@ a:hover {
     font-size: large;
 }
 
-#schedule .schedule-line{
+#schedule .schedule-line {
     font-family: 'Noto Sans', 'Roboto', Georgia, Cambria, Times, "Times New Roman", serif;
     color: #646464;
     padding: 3px 0;
     font-weight: 500;
 }
 
-#schedule .schedule-line-important{
+#schedule .schedule-line-important {
     font-family: 'Noto Sans', 'Roboto', Georgia, Cambria, Times, "Times New Roman", serif;
     /*color: #9a0229;*/
     /*color: #9a0229;*/
     color: #7f4545;
     font-weight: 600;
+}
+
+
+#faqs .faq-question {
+    margin: 20px 10px 5px 10px;
+    color: #863507;
+    font-family: "Lora", Georgia, Cambria, Times, "Times New Roman", Serif;
+}
+
+#faqs .faq-answer {
+    color: #003d9d;
+    margin: 0 10px 5px 10px;
+    font-family: "Lora", Georgia, Cambria, Times, "Times New Roman", Serif;
+}
+
+#faqs .faq-answer a {
+    text-decoration: underline;
 }
